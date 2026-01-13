@@ -1,0 +1,44 @@
+---
+import Base from '../../layouts/Base.astro';
+import { languages, translations, type Lang, type Translation } from '../../lib/i18n';
+
+export function getStaticPaths() {
+  return languages.map((lang) => ({
+    params: { lang },
+    props: { lang, t: translations[lang] }
+  }));
+}
+
+const langParam = (Astro.params.lang as Lang) ?? (Astro.props as any)?.lang ?? 'en';
+const lang: Lang = languages.includes(langParam) ? langParam : 'en';
+const t: Translation = (Astro.props as any)?.t ?? translations[lang];
+---
+<Base lang={lang} page="info" t={t}>
+  <section>
+    <div class="section-title">{t.infoTitle}</div>
+    <div class="info-grid">
+      {t.infoCards.map((card) => (
+        <div class="info-card">
+          <h3>{card.title}</h3>
+          {card.body.map((line) => (
+            <p>{line}</p>
+          ))}
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section>
+    <div class="section-title">{t.tipsTitle}</div>
+    <div class="info-grid">
+      {t.tipsCards.map((card) => (
+        <div class="info-card">
+          <h3>{card.title}</h3>
+          {card.body.map((line) => (
+            <p>{line}</p>
+          ))}
+        </div>
+      ))}
+    </div>
+  </section>
+</Base>

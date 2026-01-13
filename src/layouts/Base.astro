@@ -1,0 +1,48 @@
+---
+import Nav from '../components/Nav.astro';
+import '../styles/global.css';
+import { languages, languageLabels, type Lang, type Translation } from '../lib/i18n';
+
+interface Props {
+  lang: Lang;
+  page: 'home' | 'info' | 'rsvp';
+  t: Translation;
+}
+
+const { lang = 'en', page = 'home', t } = Astro.props as Props;
+---
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <slot name="head" />
+    <title>{t?.meta?.title ?? 'Wedding'}</title>
+  </head>
+  <body>
+    <header class="container">
+      <div style="display:flex; justify-content:center; margin-bottom:0.6rem;">
+        <img src="/leaf.svg" alt="" style="height:56px;" />
+      </div>
+      <div class="header-bar">
+        <Nav lang={lang} page={page} t={t} />
+        <div class="lang-switch">
+          {languages.map((code) => (
+            <a
+              href={`/${code}${page === 'home' ? '' : `/${page}`}`}
+              class={code === lang ? 'active' : ''}
+            >
+              {languageLabels[code]}
+            </a>
+          ))}
+        </div>
+      </div>
+    </header>
+    <main class="container">
+      <slot />
+    </main>
+    <footer class="footer">
+      <div class="monogram">{t?.footer?.monogram}</div>
+      <div style="margin-top:0.4rem;">{t?.footer?.date}</div>
+    </footer>
+  </body>
+</html>

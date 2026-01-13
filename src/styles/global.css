@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&display=swap');
+
+:root {
+  --sage: #6d8b7c;
+  --sage-dark: #4f6b5d;
+  --gold: #9b8760;
+  --cream: #f8f4ec;
+  --ink: #2f2b26;
+  --muted: #70675a;
+  --max-width: 1080px;
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--cream);
+  color: var(--muted);
+  font-family: 'Cormorant Garamond', 'Times New Roman', serif;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--sage-dark);
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1rem 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1.75rem;
+  font-size: 0.95rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.header-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.lang-switch {
+  display: flex;
+  gap: 0.6rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.1em;
+}
+
+.lang-switch a {
+  padding: 0.2rem 0.7rem;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  color: var(--muted);
+}
+
+.lang-switch a.active {
+  border-color: rgba(155, 135, 96, 0.4);
+  color: var(--sage-dark);
+}
+
+nav a.active {
+  color: var(--sage-dark);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 2rem 1.5rem 4rem;
+}
+
+.section-title {
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  text-transform: uppercase;
+  letter-spacing: 0.32em;
+  color: var(--gold);
+  font-size: 1.6rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.hero {
+  text-align: center;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.hero img {
+  width: min(100%, 980px);
+  margin: 0 auto;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.05);
+}
+
+.hero h1 {
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-size: clamp(2.4rem, 4vw, 3.4rem);
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  margin: 0;
+  color: var(--gold);
+}
+
+.hero .meta {
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.hero-context {
+  max-width: 780px;
+  margin: 1.5rem auto 2.5rem;
+  text-align: center;
+  font-size: 1.05rem;
+  color: var(--muted);
+  letter-spacing: 0.045em;
+  line-height: 1.7;
+}
+
+.hero-context p {
+  margin: 0;
+}
+
+.rule {
+  width: 80%;
+  max-width: 620px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(155, 135, 96, 0.5), transparent);
+  margin: 2rem auto;
+}
+
+.timeline {
+  display: grid;
+  gap: 2rem;
+}
+
+.timeline-entry {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  border-top: 1px solid rgba(155, 135, 96, 0.25);
+}
+
+.timeline-entry:first-of-type {
+  border-top: none;
+}
+
+.timeline-entry h3 {
+  margin: 0.25rem 0;
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-size: 1.35rem;
+  color: var(--gold);
+  letter-spacing: 0.12em;
+}
+
+.timeline-entry .subtitle {
+  font-family: 'Great Vibes', cursive;
+  font-size: 1.25rem;
+  color: var(--sage);
+  margin-bottom: 0.4rem;
+}
+
+.timeline-entry .time {
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-size: 0.95rem;
+}
+
+.timeline-entry .details {
+  margin-top: 0.3rem;
+  color: var(--muted);
+}
+
+.info-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.info-card {
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(155, 135, 96, 0.25);
+  border-radius: 10px;
+  padding: 1.75rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.03);
+}
+
+.info-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  color: var(--gold);
+  letter-spacing: 0.08em;
+}
+
+.info-card p {
+  margin: 0.35rem 0;
+}
+
+.footer {
+  text-align: center;
+  padding: 3rem 1.5rem 4rem;
+  color: var(--muted);
+  letter-spacing: 0.16em;
+}
+
+.footer .monogram {
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+  font-size: 1.4rem;
+  color: var(--gold);
+  text-transform: uppercase;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid var(--gold);
+  border-radius: 999px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  color: var(--gold);
+}
+
+.form-card {
+  max-width: 720px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(155, 135, 96, 0.28);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.05);
+}
+
+form {
+  display: grid;
+  gap: 1.25rem;
+}
+
+label {
+  display: block;
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 0.4rem;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 0.85rem 1rem;
+  border: 1px solid rgba(155, 135, 96, 0.4);
+  background: white;
+  border-radius: 8px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1rem;
+  color: var(--ink);
+}
+
+textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+button {
+  background: linear-gradient(135deg, var(--sage), var(--sage-dark));
+  color: white;
+  border: none;
+  border-radius: 999px;
+  padding: 0.95rem 1.6rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-family: 'Playfair Display', serif;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 18px rgba(77, 107, 93, 0.25);
+}
+
+.status {
+  text-align: center;
+  letter-spacing: 0.08em;
+}
+
+@media (max-width: 720px) {
+  nav {
+    flex-wrap: wrap;
+    gap: 0.85rem;
+  }
+
+  .header-bar {
+    gap: 0.35rem;
+  }
+
+  .lang-switch {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero img {
+    border-radius: 6px;
+  }
+
+  .form-card {
+    padding: 1.5rem;
+  }
+}

@@ -1,0 +1,16 @@
+---
+import type { Lang } from '../lib/i18n';
+
+interface Props {
+  lang: Lang;
+  page: 'home' | 'info' | 'rsvp';
+  t: any;
+}
+
+const { lang, page, t } = Astro.props as Props;
+---
+<nav>
+  <a href={`/${lang}`} class={page === 'home' ? 'active' : ''}>{t.nav.home}</a>
+  <a href={`/${lang}/info`} class={page === 'info' ? 'active' : ''}>{t.nav.info}</a>
+  <a href={`/${lang}/rsvp`} class={page === 'rsvp' ? 'active' : ''}>{t.nav.rsvp}</a>
+</nav>
