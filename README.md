@@ -17,12 +17,14 @@ Open http://localhost:4321.
 - Update copy in `src/pages/index.astro`, `src/pages/info.astro`, `src/pages/rsvp.astro`.
 
 ## Deploy to Cloudflare Pages
-1. Run `npm run build`; Pages output dir is `dist` (see `astro.config.mjs`).
-2. Create a Pages project, select this repo, set **Build command** `npm run build` and **Build output** `dist`.
-3. Enable **Functions**; Pages will pick up `src/pages/api/rsvp.ts`.
+1. Run `npm run build`; Pages build output directory is `dist` (see `astro.config.mjs`).
+2. Create a Pages project from this repo and set **Build command** to `npm run build`, **Deploy command** to `npm run build`, and **Build output** to `dist`.
+3. Cloudflare Pages automatically publishes any Page Functions rooted in a `functions/` directory. The repository ships `functions/api/rsvp.ts`, so `/api/rsvp` will be routed to that handler once the project is deployed and Functions are enabled in the Pages settings.
 4. Provision storage (choose one):
-   - **D1**: create database, then set binding `DB` in `wrangler.toml` and in Pages project settings. Apply schema with `wrangler d1 migrations apply <db>` using `migrations/001_init.sql`.
-   - **KV**: create namespace, set binding `RSVP_KV` in `wrangler.toml`/Pages settings. KV is used if D1 is absent.
+   - **D1**: create a database, copy the database name/ID into the `[[d1_databases]]` block in `wrangler.toml`, add the binding `DB` in the Pages project settings, and run `wrangler d1 migrations apply <database-name>` from this repo to execute `migrations/001_init.sql`.
+   - **KV**: create a namespace, add a `RSVP_KV` binding in both `wrangler.toml` and the Pages settings. KV serves as a fallback when D1 is unavailable.
+
+Once the first deployment completes, open the deployment details and check the **Functions** tab to confirm `/api/rsvp` is listed, then POST a small payload to that endpoint (via `curl` or the form) to verify RSVP submissions hit D1/KV.
 
 ## Dev testing
 - Submit the form at `/rsvp`; check Pages Function logs in Cloudflare dashboard or `wrangler pages dev` if you prefer.
@@ -31,6 +33,6 @@ Open http://localhost:4321.
 - `src/pages/[lang]/index.astro` – homepage + timeline (en/es/bg)
 - `src/pages/[lang]/info.astro` – travel, stay, dress code, tips (en/es/bg)
 - `src/pages/[lang]/rsvp.astro` – RSVP form UI (en/es/bg)
-- `src/pages/api/rsvp.ts` – Pages Function storing RSVPs
+- `functions/api/rsvp.ts` – Pages Function storing RSVPs
 - `migrations/001_init.sql` – D1 schema
 - `public/leaf.svg`, `public/hero.svg` – decorative assets

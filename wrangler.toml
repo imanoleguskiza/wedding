@@ -3,7 +3,7 @@ compatibility_date = "2024-12-15"
 pages_build_output_dir = "./dist"
 
 # Uncomment and replace with your IDs when you create the resources.
-#[[d1_databases]]
+[[d1_databases]]
 binding = "DB"
 database_name = "wedding-database"
 database_id = "abd8cfc8-670a-45ca-988d-d702bd0f4b4a"

@@ -2,6 +2,7 @@ node_modules/
 /.astro/
 .cache/
 dist/
+.wrangler/
 
 # Environment files
 .env
