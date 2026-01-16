@@ -26,9 +26,7 @@ const t: Translation = (Astro.props as any)?.t ?? translations[lang];
     </div>
   </section>
 
-  <div class="hero-context">
-    <p>{t.hero.context}</p>
-  </div>
+  <div class="hero-context" set:html={t.hero.context}></div>
 
   <section>
     <div class="section-title">{t.scheduleTitle}</div>

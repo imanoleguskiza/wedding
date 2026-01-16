@@ -93,7 +93,7 @@ export const translations: Record<Lang, Translation> = {
     hero: {
       names: 'Viktoria & Imanol',
       subtitle: '28 March 2025 • Brussels, Belgium',
-      context: 'We hope this overview helps you plan the day—here is the schedule so you know what to expect next.'
+      context: '<p>After almost 10 years of selfies, we have decided to tie the knot.</p><p>As is our style, we are throwing a wedding shindig to celebrate the affair and we would love for you to be there with us.</p>'
     },
     scheduleTitle: 'Schedule',
     schedule: [
@@ -209,7 +209,7 @@ export const translations: Record<Lang, Translation> = {
     hero: {
       names: 'Viktoria & Imanol',
       subtitle: '24 de julio de 2025 • Novi Sad, Serbia',
-      context: 'Compartimos este día con alegría; aquí tienes el programa para que sepas qué evento viene después.'
+      context: '<p>Compartimos este día con alegría.</p><p>Aquí tienes el programa para que sepas qué evento viene después.</p>'
     },
     scheduleTitle: 'Programa',
     schedule: [
@@ -338,7 +338,7 @@ export const translations: Record<Lang, Translation> = {
     hero: {
       names: 'Viktoria & Imanol',
       subtitle: '24 юли 2025 г. • Нови Сад, Сърбия',
-      context: 'Очакваме с нетърпение да празнуваме заедно; ето програмата, за да се ориентирате в деня.'
+      context: '<p>Очакваме с нетърпение да празнуваме заедно.</p><p>Ето програмата, за да се ориентирате в деня.</p>'
     },
     scheduleTitle: 'Програма',
     schedule: [
