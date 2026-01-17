@@ -20,20 +20,25 @@ const { lang = 'en', page = 'home', t } = Astro.props as Props;
   </head>
   <body>
     <header class="container">
-      <div style="display:flex; justify-content:center; margin-bottom:0.6rem;">
-        <img src="/leaf.svg" alt="" style="height:56px;" />
-      </div>
-      <div class="header-bar">
-        <Nav lang={lang} page={page} t={t} />
-        <div class="lang-switch">
-          {languages.map((code) => (
-            <a
-              href={`/${code}${page === 'home' ? '' : `/${page}`}`}
-              class={code === lang ? 'active' : ''}
-            >
-              {languageLabels[code]}
-            </a>
-          ))}
+      <div class="header-row">
+        <div class="header-decoration header-decoration--left">
+          <img src="/eguz.png" alt="Decorative illustration" />
+        </div>
+        <div class="header-bar">
+          <Nav lang={lang} page={page} t={t} />
+          <div class="lang-switch">
+            {languages.map((code) => (
+              <a
+                href={`/${code}${page === 'home' ? '' : `/${page}`}`}
+                class={code === lang ? 'active' : ''}
+              >
+                {languageLabels[code]}
+              </a>
+            ))}
+          </div>
+        </div>
+        <div class="header-decoration header-decoration--right">
+          <img src="/zdra.png" alt="Decorative illustration" />
         </div>
       </div>
     </header>
