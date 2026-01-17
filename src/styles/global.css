@@ -191,6 +191,11 @@ main {
   margin-top: 0.3rem;
   color: var(--muted);
 }
+.timeline-entry .description {
+  margin-top: 0.5rem;
+  color: var(--sage);
+  font-size: 0.95rem;
+}
 
 .info-grid {
   display: grid;

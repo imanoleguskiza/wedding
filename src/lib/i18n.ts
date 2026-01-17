@@ -6,6 +6,7 @@ type ScheduleEntry = {
   time: string;
   title: string;
   details: string;
+  description: string;
   badge?: string;
 };
 
@@ -93,53 +94,53 @@ export const translations: Record<Lang, Translation> = {
     hero: {
       names: 'Viktoria & Imanol',
       subtitle: '28 March 2025 • Brussels, Belgium',
-      context: '<p>After almost 10 years of selfies, we have decided to tie the knot.</p><p>As is our style, we are throwing a wedding shindig to celebrate the affair and we would love for you to be there with us.</p>'
+      context: '<p>After almost 10 years of selfies, we have decided to tie the knot.</p><p>As is our style, we are throwing a marriage shindig to celebrate the affair and we would love for you to be there with us.</p><p>Consider yourself formally invited!</p>'
     },
     scheduleTitle: 'Schedule',
     schedule: [
       {
-        subtitle: 'Wedding ceremony',
-        time: 'Saturday, 28 March, 2025 • HOUR TBD',
+        subtitle: 'The Formal Bit',
+        time: 'Saturday, 28 March, 2025 • 11:30-13:00',
         title: "Maison Communale d'Ixelles",
-        details: 'Place Eugène Flagey 18, 1050 Ixelles, Brussels'
+        details: 'Place Eugène Flagey 18, 1050 Ixelles, Brussels',
+        description: 'We have a marriage appointment at the Commune d’Ixelles and you are welcome to join us for this! While we are unsure how exactly it happens, we expect to declare our undying love and sign some papers. Woop!'
       },
       {
-        subtitle: "Cocktail & Reception",
-        time: 'Saturday, 28 March, 2025 • HOUR TBD',
+        subtitle: "The Fun Part",
+        time: 'Saturday, 28 March, 2025 • 13:30-20:00',
         title: "Pompette",
-        details: 'Chausee d\'Ixelles 181, 1050 Ixelles, Belgium'
+        details: 'Chausee d\'Ixelles 181, 1050 Ixelles, Belgium',
+        description: 'Going with a Spanish vibe, we\'ll have some lunch and spend the rest of the day "tardeo" syle. What does this mean: open bar, coffees, cocktail happy hour and a nice merienda around 18:00 to keep us going into the night.'
+      },
+      {
+        subtitle: "Into the night",
+        time: 'Saturday, 28 March, 2025 • 20:00-Late',
+        title: "Somewhere in Brussels",
+        details: '',
+        description: 'While we have booked Pompette until 1AM, there is no specific plan for the evening and we will see where the night takes us! Feel free to join us for afters, wherever that may be.'
       }
     ],
     infoTitle: 'Practical Information',
     infoCards: [
       {
-        title: 'Travel',
+        title: 'Travel & Stay',
         body: [
-          'Airport: Belgrade Nikola Tesla (BEG) or Timișoara (TSR).',
-          'To Novi Sad: 1h by car from Belgrade; ~1.5h by shuttle or train.',
-          'Getting around: taxis and Bolt are available; rides are short.'
-        ]
-      },
-      {
-        title: 'Stay',
-        body: [
-          'Historic center: Hotels Leopold I, Garni Arta, Prezident.',
-          'By the river: Sheraton & Hotel Pupin near Petrovaradin.',
-          'Book early: July is busy—reserve soon for walking distance.'
+          'For the ones traveling from afar (or not so afar), let us know if you need any help on these two items.',
+          'In short: we recommend flying to Zaventem and staying between Place Fernand Coq, Place Flagey and Place du Châtelain. Or go to the European Quarter if you crave that corporate vibe.'
         ]
       },
       {
         title: 'Dress Code',
         body: [
-          'Elegant summer attire; ceremony indoors, terrace for reception.',
-          'Heels-friendly surfaces except a short cobblestone stretch.'
+          'Nothing specific, ours is a casual celebration.',
+          'Be yourself and be comfortable, this is what matters to us.'
         ]
       },
       {
-        title: 'Gifts',
+        title: 'Music',
         body: [
-          'Your presence is the greatest gift.',
-          'A handwritten note or favorite poem would mean a lot to us.'
+          'We are building the greatest playlist of all time and we would love for you to contribute.',
+          'Follow this link and feel free to add your favorite tunes: LINK'
         ]
       }
     ],
@@ -147,17 +148,26 @@ export const translations: Record<Lang, Translation> = {
     tipsCards: [
       {
         title: 'Food & coffee',
-        body: ['Carigradski Drum for brunch, Petrus for dinner, Trčika for sunset coffee.']
+        body: [
+          'For people new and old to Brussels, here is a list of places to eat and drink we have accumulated over the years:',
+          'Food: LINK',
+          'Coffee & Sweets: LINK'
+        ]
       },
       {
         title: 'Things to do',
-        body: ['Walk Danube quay at golden hour, explore Petrovaradin fortress, visit Trg Slobode.']
+        body: [
+          'If its your first time in Brussels, go enjoy the Grand Place.',
+          'If it is not, go enjoy Maroles and the flea market.',
+          'Either way, go and enjoy a good belgian beer!',
+          'Let us know if you need personalized tips and we will happily provide.' 
+        ]
       },
       {
         title: 'Contacts',
         body: [
-          'Hosts: Isidora +381 60 000 000 • Danilo +381 60 111 111',
-          'Questions: rsvp@ourday.example'
+          'Imanol +32 456 35 61 28 • Viktoria +32 456 32 49 67',
+          'Questions: imanolviki@gmail.com'
         ]
       }
     ],
@@ -217,26 +227,30 @@ export const translations: Record<Lang, Translation> = {
         subtitle: 'Brindis con el novio',
         time: 'Domingo, 24 de julio de 2025 • 12:00–14:00',
         title: 'Casa del novio',
-        details: 'Golabova 15, Inđija'
+        details: 'Golabova 15, Inđija',
+        description: 'Comenzamos con un brindis ligero junto al novio, perfecto para saludar a los invitados que llegan temprano.'
       },
       {
         subtitle: 'Encuentro de invitados',
         time: 'Domingo, 24 de julio de 2025 • 15:00–16:15',
         title: 'Casa de la novia',
-        details: 'Šime Milutinovića Sarajlije 19, Novi Sad'
+        details: 'Šime Milutinovića Sarajlije 19, Novi Sad',
+        description: 'Café, dulces y charlas para que familias y amigos se reencuentren antes de la ceremonia.'
       },
       {
         subtitle: 'Ceremonia en la iglesia',
         time: 'Domingo, 24 de julio de 2025 • 17:00',
         title: 'Iglesia Nikolaevska',
-        details: 'Nikolaevska Porta, Novi Sad'
+        details: 'Nikolaevska Porta, Novi Sad',
+        description: 'Nuestra ceremonia oficial se celebra con música suave; luego caminamos juntos hacia el salón.'
       },
       {
         subtitle: 'Celebración',
         time: '18:00–01:00',
         title: 'Salón Lipov Gaj',
         details: 'BB Nova 1, Novi Sad',
-        badge: 'Recepción • Ceremonia • Fiesta'
+        badge: 'Recepción • Ceremonia • Fiesta',
+        description: 'Cena, brindis y baile bajo las luces del salón hasta entrada la madrugada.'
       }
     ],
     infoTitle: 'Información práctica',
@@ -346,26 +360,30 @@ export const translations: Record<Lang, Translation> = {
         subtitle: 'Наздравица с младоженеца',
         time: 'Неделя, 24 юли 2025 • 12:00–14:00',
         title: 'Къщата на младоженеца',
-        details: 'Golabova 15, Inđija'
+        details: 'Golabova 15, Inđija',
+        description: 'Наздравица и леки хапки край дома на младоженеца, за да посрещнем гостите.'
       },
       {
         subtitle: 'Посрещане на гостите',
         time: 'Неделя, 24 юли 2025 • 15:00–16:15',
         title: 'Къщата на булката',
-        details: 'Šime Milutinovića Sarajlije 19, Novi Sad'
+        details: 'Šime Milutinovića Sarajlije 19, Novi Sad',
+        description: 'Кафе, сладкиши и приятни разговори преди церемонията.'
       },
       {
         subtitle: 'Църковен обред',
         time: 'Неделя, 24 юли 2025 • 17:00',
         title: 'Църква Nikolaevska',
-        details: 'Nikolaevska Porta, Novi Sad'
+        details: 'Nikolaevska Porta, Novi Sad',
+        description: 'Официалната церемония с хор и свещи, след което ще се разходим до залата.'
       },
       {
         subtitle: 'Празненство',
         time: '18:00–01:00',
         title: 'Зала Lipov Gaj',
         details: 'BB Nova 1, Novi Sad',
-        badge: 'Прием • Ритуал • Парти'
+        badge: 'Прием • Ритуал • Парти',
+        description: 'Вечеря, музика и танци в Lipov Gaj до сутринта.'
       }
     ],
     infoTitle: 'Практична информация',
