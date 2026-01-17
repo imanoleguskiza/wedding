@@ -140,7 +140,7 @@ export const translations: Record<Lang, Translation> = {
         title: 'Music',
         body: [
           'We want everyone to have fun and have their music taste represented.',
-          'Follow this link and feel free to add your favorite bangers for the tardeo: LINK'
+          'Follow this link and feel free to add your favorite bangers for the tardeo: <a href="https://open.spotify.com/playlist/21xlH8O9UJQ063xIscskDP?si=WdgWWXt-SnaKQfqAWYLpdg&pi=zaeQ-izRTBe4z">Spotify playlist</a>'
         ]
       }
     ],
@@ -150,8 +150,8 @@ export const translations: Record<Lang, Translation> = {
         title: 'Food & coffee',
         body: [
           'For people new and old to Brussels, here is a list of places to eat and drink we have accumulated over the years:',
-          'Food: LINK',
-          'Coffee & Sweets: LINK'
+          'Food: <a href="https://maps.app.goo.gl/hozHnN8Kykiq3e6n7?g_st=i"> Google maps</a>',
+          'Coffee & Sweets: <a href="https://maps.app.goo.gl/aA5QwscmTbfYpqbE8?g_st=i"> Google maps</a>'
         ]
       },
       {
@@ -265,7 +265,7 @@ export const translations: Record<Lang, Translation> = {
         title: 'Música', 
         body: [ 
           'Queremos que todo el mundo se divierta y que sus gustos musicales estén representados.', 
-          'Sigue este enlace y añade tus temazos favoritos para el tardeo: LINK' 
+          'Sigue este enlace y añade tus temazos favoritos para el tardeo: <a href="https://open.spotify.com/playlist/21xlH8O9UJQ063xIscskDP?si=WdgWWXt-SnaKQfqAWYLpdg&pi=zaeQ-izRTBe4z">Spotify playlist</a>' 
         ] 
       } 
     ], 
@@ -275,8 +275,8 @@ export const translations: Record<Lang, Translation> = {
         title: 'Comida y café', 
         body: [ 
           'Para quienes conocen Bruselas desde hace poco o desde hace mucho, aquí teneis una lista de sitios para comer y beber que hemos ido recopilando a lo largo de los años:', 
-          'Comida: LINK', 
-          'Café y dulces: LINK' 
+          'Comida: <a href="https://maps.app.goo.gl/hozHnN8Kykiq3e6n7?g_st=i"> Google maps</a>',
+          'Café y dulces: <a href="https://maps.app.goo.gl/aA5QwscmTbfYpqbE8?g_st=i"> Google maps</a>' 
         ] 
       }, 
       { 
@@ -390,7 +390,7 @@ export const translations: Record<Lang, Translation> = {
         title: 'Музика',
         body: [
           'Искаме всички да се забавляват и да чуят музика, която обичат.',
-          'Последвайте този линк и добавете любимите си парчета за tardeo-то: LINK'
+          'Последвайте този линк и добавете любимите си парчета за tardeo-то: <a href="https://open.spotify.com/playlist/21xlH8O9UJQ063xIscskDP?si=WdgWWXt-SnaKQfqAWYLpdg&pi=zaeQ-izRTBe4z">Spotify playlist</a>'
         ]
       }
     ],
@@ -400,8 +400,8 @@ export const translations: Record<Lang, Translation> = {
         title: 'Храна и кафе',
         body: [
           'За нови и стари познавачи на Брюксел — ето списък с места за хапване и напитки, които сме събрали през годините:',
-          'Храна: LINK',
-          'Кафе и сладкиши: LINK'
+          'Храна: <a href="https://maps.app.goo.gl/hozHnN8Kykiq3e6n7?g_st=i"> Google maps</a>',
+          'Кафе и сладкиши: <a href="https://maps.app.goo.gl/aA5QwscmTbfYpqbE8?g_st=i"> Google maps</a>'
         ]
       },
       {

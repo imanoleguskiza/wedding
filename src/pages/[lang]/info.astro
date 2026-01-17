@@ -21,7 +21,7 @@ const t: Translation = (Astro.props as any)?.t ?? translations[lang];
         <div class="info-card">
           <h3>{card.title}</h3>
           {card.body.map((line) => (
-            <p>{line}</p>
+            <p set:html={line}></p>
           ))}
         </div>
       ))}
@@ -35,7 +35,7 @@ const t: Translation = (Astro.props as any)?.t ?? translations[lang];
         <div class="info-card">
           <h3>{card.title}</h3>
           {card.body.map((line) => (
-            <p>{line}</p>
+            <p set:html={line}></p>
           ))}
         </div>
       ))}

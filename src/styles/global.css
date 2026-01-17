@@ -223,6 +223,16 @@ main {
   margin: 0.35rem 0;
 }
 
+.info-card p a {
+  color: var(--sage-dark);
+  text-decoration: underline;
+}
+
+.info-card p a:hover,
+.info-card p a:focus-visible {
+  color: var(--ink);
+}
+
 .footer {
   text-align: center;
   padding: 3rem 1.5rem 4rem;
