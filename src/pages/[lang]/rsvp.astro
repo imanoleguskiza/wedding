@@ -24,10 +24,6 @@ const t: Translation = (Astro.props as any)?.t ?? translations[lang];
           <input id="names" name="names" required placeholder={t.rsvp.placeholders.names} />
         </div>
         <div>
-          <label for="email">{t.rsvp.fields.email}</label>
-          <input id="email" name="email" type="email" required placeholder={t.rsvp.placeholders.email} />
-        </div>
-        <div>
           <label for="attendance">{t.rsvp.fields.attendance}</label>
           <select id="attendance" name="attendance" required>
             <option value="">—</option>
@@ -42,10 +38,6 @@ const t: Translation = (Astro.props as any)?.t ?? translations[lang];
         <div>
           <label for="diet">{t.rsvp.fields.diet}</label>
           <textarea id="diet" name="diet" placeholder={t.rsvp.placeholders.diet}></textarea>
-        </div>
-        <div>
-          <label for="song">{t.rsvp.fields.song}</label>
-          <input id="song" name="song" placeholder={t.rsvp.placeholders.song} />
         </div>
         <div>
           <label for="message">{t.rsvp.fields.message}</label>

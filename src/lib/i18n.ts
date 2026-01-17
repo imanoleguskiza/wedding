@@ -177,7 +177,7 @@ export const translations: Record<Lang, Translation> = {
     },
     rsvp: {
       title: 'RSVP',
-      intro: 'Please confirm by the 31st of January so we can plan ahead.',
+      intro: 'We would be grateful if you could confirm by the 15th of February if you can make it.',
       fields: {
         names: 'Your name(s)',
         email: 'Email',
