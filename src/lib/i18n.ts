@@ -139,8 +139,8 @@ export const translations: Record<Lang, Translation> = {
       {
         title: 'Music',
         body: [
-          'We are building the greatest playlist of all time and we would love for you to contribute.',
-          'Follow this link and feel free to add your favorite tunes: LINK'
+          'We want everyone to have fun and have their music taste represented.',
+          'Follow this link and feel free to add your favorite bangers for the tardeo: LINK'
         ]
       }
     ],
@@ -206,143 +206,135 @@ export const translations: Record<Lang, Translation> = {
       }
     }
   },
-  es: {
-    meta: {
-      title: 'Nuestra boda',
-      dateLocation: '24 de julio de 2025 • Novi Sad, Serbia'
-    },
-    nav: {
-      home: 'Inicio',
-      info: 'Detalles',
-      rsvp: 'Confirmar'
-    },
-    hero: {
-      names: 'Viktoria & Imanol',
-      subtitle: '24 de julio de 2025 • Novi Sad, Serbia',
-      context: '<p>Compartimos este día con alegría.</p><p>Aquí tienes el programa para que sepas qué evento viene después.</p>'
-    },
-    scheduleTitle: 'Programa',
-    schedule: [
-      {
-        subtitle: 'Brindis con el novio',
-        time: 'Domingo, 24 de julio de 2025 • 12:00–14:00',
-        title: 'Casa del novio',
-        details: 'Golabova 15, Inđija',
-        description: 'Comenzamos con un brindis ligero junto al novio, perfecto para saludar a los invitados que llegan temprano.'
-      },
-      {
-        subtitle: 'Encuentro de invitados',
-        time: 'Domingo, 24 de julio de 2025 • 15:00–16:15',
-        title: 'Casa de la novia',
-        details: 'Šime Milutinovića Sarajlije 19, Novi Sad',
-        description: 'Café, dulces y charlas para que familias y amigos se reencuentren antes de la ceremonia.'
-      },
-      {
-        subtitle: 'Ceremonia en la iglesia',
-        time: 'Domingo, 24 de julio de 2025 • 17:00',
-        title: 'Iglesia Nikolaevska',
-        details: 'Nikolaevska Porta, Novi Sad',
-        description: 'Nuestra ceremonia oficial se celebra con música suave; luego caminamos juntos hacia el salón.'
-      },
-      {
-        subtitle: 'Celebración',
-        time: '18:00–01:00',
-        title: 'Salón Lipov Gaj',
-        details: 'BB Nova 1, Novi Sad',
-        badge: 'Recepción • Ceremonia • Fiesta',
-        description: 'Cena, brindis y baile bajo las luces del salón hasta entrada la madrugada.'
-      }
-    ],
-    infoTitle: 'Información práctica',
-    infoCards: [
-      {
-        title: 'Viaje',
-        body: [
-          'Aeropuertos: Belgrado Nikola Tesla (BEG) o Timișoara (TSR).',
-          'A Novi Sad: 1 h en coche desde Belgrado; ~1,5 h en shuttle o tren.',
-          'Moverse: taxis y Bolt disponibles; trayectos cortos.'
-        ]
-      },
-      {
-        title: 'Alojamiento',
-        body: [
-          'Centro histórico: hoteles Leopold I, Garni Arta, Prezident.',
-          'Junto al río: Sheraton y Hotel Pupin cerca de Petrovaradin.',
-          'Reserva pronto: julio es temporada alta; así podrás ir andando.'
-        ]
-      },
-      {
-        title: 'Código de vestimenta',
-        body: [
-          'Elegante de verano; ceremonia interior y recepción con terraza exterior.',
-          'Superficies aptas para tacones salvo un pequeño tramo empedrado.'
-        ]
-      },
-      {
-        title: 'Regalos',
-        body: [
-          'Su presencia es el mejor regalo.',
-          'Una nota manuscrita o un poema favorito nos haría muy felices.'
-        ]
-      }
-    ],
-    tipsTitle: 'Consejos e ideas',
-    tipsCards: [
-      {
-        title: 'Comida y café',
-        body: ['Carigradski Drum para brunch, Petrus para cenar, Trčika para café al atardecer.']
-      },
-      {
-        title: 'Qué hacer',
-        body: ['Paseo por el Danubio al atardecer, fortaleza Petrovaradin, plaza Trg Slobode.']
-      },
-      {
-        title: 'Contactos',
-        body: [
-          'Anfitriones: Isidora +381 60 000 000 • Danilo +381 60 111 111',
-          'Dudas: rsvp@ourday.example'
-        ]
-      }
-    ],
-    footer: {
-      monogram: 'I & D',
-      date: '24 de julio de 2025 • Novi Sad, Serbia'
-    },
-    rsvp: {
-      title: 'Confirmación',
-      intro: 'Por favor confirma antes del 15 de junio para organizar asientos, menú y transporte.',
-      fields: {
-        names: 'Nombre(s)',
-        email: 'Correo',
-        attendance: '¿Asistirás?',
-        guests: '¿Cuántas personas vienen?',
-        diet: 'Restricciones o preferencias',
-        song: 'Canción para pedir (opcional)',
-        message: '¿Algo más?'
-      },
-      placeholders: {
-        names: 'Viktoria & Imanol',
-        email: 'tu@correo.com',
-        diet: 'Alergias, vegetariano/vegano, etc.',
-        song: 'Se la pediremos a la banda.',
-        message: 'Detalles de viaje, acompañantes, niños o preguntas.'
-      },
-      attendanceOptions: {
-        yes: 'Con mucho gusto',
-        no: 'Con pena no podré'
-      },
-      submit: 'Enviar',
-      status: {
-        sending: 'Enviando tu confirmación…',
-        success: '¡Gracias! Recibimos tu respuesta.',
-        error: 'Algo salió mal. Intenta de nuevo o escríbenos.'
-      }
-    }
+  es: { 
+    meta: { 
+      title: 'Nuestra boda', 
+      dateLocation: '24 de julio de 2025 • Novi Sad, Serbia' 
+    }, 
+    nav: { 
+      home: 'Inicio', 
+      info: 'Detalles', 
+      rsvp: 'RSVP' 
+    }, 
+    hero: { 
+      names: 'Viktoria & Imanol', 
+      subtitle: '28 de marzo de 2025 • Bruselas, Bélgica', 
+      context: '<p>Después de casi 10 años de selfies, hemos decidido dar el gran paso.</p><p>Como es nuestro estilo, organizamos un guateque de boda para celebrarlo y nos encantaría que estuvieras allí con nosotros.</p><p>¡Considérate formalmente invitado!</p>' 
+    }, 
+    scheduleTitle: 'Programa', 
+    schedule: [ 
+      { 
+        subtitle: 'La parte formal', 
+        time: 'Sábado, 28 de marzo de 2025 • 11:30-13:00', 
+        title: "Maison Communale d'Ixelles", 
+        details: 'Place Eugène Flagey 18, 1050 Ixelles, Bruselas', 
+        description: 'Tenemos cita para casarnos en la comuna de Ixelles y ¡estás más que invitado a acompañarnos! Aunque no sabemos exactamente cómo será, esperamos declarar nuestro amor eterno y firmar algunos papeles. ¡Yuju!' 
+      }, 
+      { 
+        subtitle: 'La parte divertida', 
+        time: 'Sábado, 28 de marzo de 2025 • 13:30-20:00', 
+        title: 'Pompette', 
+        details: 'Chausee d\'Ixelles 181, 1050 Ixelles, Bélgica', 
+        description: 'El plan es comida y tardeo con barra libre, cafés, happy hour de cócteles y una buena merienda alrededor de las 18:00 para seguir hasta la noche.' 
+      }, 
+      { 
+        subtitle: 'Hasta entrada la noche', 
+        time: 'Sábado, 28 de marzo de 2025 • 20:00-hasta tarde', 
+        title: 'En algún lugar de Bruselas', 
+        details: '', 
+        description: 'Aunque tenemos reservado Pompette hasta la 1:00, no hay un plan concreto para la noche y veremos adónde nos lleva. ¡Siéntete libre de unirte a nosotros para el after, donde sea que termine siendo!' 
+      } 
+    ], 
+    infoTitle: 'Información práctica', 
+    infoCards: [ 
+      { 
+        title: 'Viaje y alojamiento', 
+        body: [ 
+          'Para quienes viajen desde lejos (o no tan lejos), avísanos si necesitas ayuda con estos dos puntos.', 
+          'En resumen: recomendamos volar a Zaventem y alojarse entre Place Fernand Coq, Place Flagey y Place du Châtelain. O ir al Barrio Europeo si te apetece ese ambiente corporativo.' 
+        ] 
+      }, 
+      { 
+        title: 'Código de vestimenta', 
+        body: [ 
+          'Nada específico, es una celebración informal.', 
+          'Sé tú mismo y siéntete cómodo, eso es lo que más nos importa.' 
+        ] 
+      }, 
+      { 
+        title: 'Música', 
+        body: [ 
+          'Queremos que todo el mundo se divierta y que sus gustos musicales estén representados.', 
+          'Sigue este enlace y añade tus temazos favoritos para el tardeo: LINK' 
+        ] 
+      } 
+    ], 
+    tipsTitle: 'Consejos e ideas', 
+    tipsCards: [ 
+      { 
+        title: 'Comida y café', 
+        body: [ 
+          'Para quienes conocen Bruselas desde hace poco o desde hace mucho, aquí teneis una lista de sitios para comer y beber que hemos ido recopilando a lo largo de los años:', 
+          'Comida: LINK', 
+          'Café y dulces: LINK' 
+        ] 
+      }, 
+      { 
+        title: 'Qué hacer', 
+        body: [ 
+          'Si es tu primera vez en Bruselas, ve a disfrutar de la Grand Place.', 
+          'Si no lo es, date una vuelta por Marolles y el mercadillo.', 
+          'En cualquier caso, ¡disfruta de una buena cerveza belga!', 
+          'Avísanos si necesitas recomendaciones personalizadas y estaremos encantados de ayudarte.' 
+        ] 
+      }, 
+      { 
+        title: 'Contactos', 
+        body: [ 
+          'Imanol +32 456 35 61 28 • Viktoria +32 456 32 49 67', 
+          'Preguntas: imanolviki@gmail.com' 
+        ] 
+      } 
+    ], 
+    footer: { 
+      monogram: 'V & I', 
+      date: '28 de marzo de 2025 • Bruselas, Bélgica' 
+    }, 
+    rsvp: { 
+      title: 'RSVP', 
+      intro: 'Te agradeceríamos que confirmaras antes del 15 de febrero si podrás asistir.', 
+      fields: { 
+        names: 'Tu nombre(s)', 
+        email: 'Correo electrónico', 
+        attendance: '¿Asistirás?', 
+        guests: '¿Cuántas personas asistirán?', 
+        diet: 'Notas sobre alimentación', 
+        song: 'Petición de canción (opcional)', 
+        message: '¿Algo más?' 
+      }, 
+      placeholders: { 
+        names: 'Viktoria & Imanol', 
+        email: 'you@example.com', 
+        diet: 'Alergias, preferencias vegetarianas/veganas, etc.', 
+        song: 'Haremos todo lo posible por que suene.', 
+        message: 'Detalles de viaje, nombres de acompañantes, niños o preguntas.' 
+      }, 
+      attendanceOptions: { 
+        yes: 'Acepto con alegría', 
+        no: 'Declino con pesar' 
+      }, 
+      submit: 'Enviar RSVP', 
+      status: { 
+        sending: 'Enviando tu RSVP…', 
+        success: '¡Gracias! Hemos recibido tu RSVP.', 
+        error: 'Algo salió mal. Por favor, inténtalo de nuevo o escríbenos.' 
+      } 
+    } 
   },
   bg: {
     meta: {
       title: 'Нашата сватба',
-      dateLocation: '24 юли 2025 г. • Нови Сад, Сърбия'
+      dateLocation: '28-ми март 2026 • Брюксел, Белгия'
     },
     nav: {
       home: 'Начало',
@@ -350,125 +342,117 @@ export const translations: Record<Lang, Translation> = {
       rsvp: 'Потвърждение'
     },
     hero: {
-      names: 'Viktoria & Imanol',
-      subtitle: '24 юли 2025 г. • Нови Сад, Сърбия',
-      context: '<p>Очакваме с нетърпение да празнуваме заедно.</p><p>Ето програмата, за да се ориентирате в деня.</p>'
+      names: 'Виктория & Иманол',
+      subtitle: '28 март 2025 • Брюксел, Белгия',
+      context: '<p>След почти 10 години селфита решихме да подпишем. Йей!</p><p>Пък така и така ще се наконтим за подписа, с кеф ще си организираме едно партЕ, та да полеем голямата крачка. А колкото повече прекрасни хора дойдат да поливат с нас, толкоз по-плодородно ще да е. В превод: мноооого ще се радваме да дойдете.</p><p>Считайте се официално поканени!</p>'
     },
     scheduleTitle: 'Програма',
     schedule: [
       {
-        subtitle: 'Наздравица с младоженеца',
-        time: 'Неделя, 24 юли 2025 • 12:00–14:00',
-        title: 'Къщата на младоженеца',
-        details: 'Golabova 15, Inđija',
-        description: 'Наздравица и леки хапки край дома на младоженеца, за да посрещнем гостите.'
+        subtitle: 'Официалната част',
+        time: 'Събота, 28 март 2025 • 11:30–13:00',
+        title: "Maison Communale d'Ixelles",
+        details: 'Place Eugène Flagey 18, 1050 Ixelles, Брюксел',
+        description: 'Имаме час за сключване на брак в общината на Иксел и сте добре дошли да се присъедините! Макар да не сме напълно сигурни как точно протича, очакваме да заявим вечната си любов пред белгийската администрация и да подпишем няколко документа. Ура!'
       },
       {
-        subtitle: 'Посрещане на гостите',
-        time: 'Неделя, 24 юли 2025 • 15:00–16:15',
-        title: 'Къщата на булката',
-        details: 'Šime Milutinovića Sarajlije 19, Novi Sad',
-        description: 'Кафе, сладкиши и приятни разговори преди церемонията.'
+        subtitle: 'Забавната част',
+        time: 'Събота, 28 март 2025 • 13:30–20:00',
+        title: 'Pompette',
+        details: "Chaussée d'Ixelles 181, 1050 Ixelles, Белгия",
+        description: 'По испански тертип, ще обядваме и ще прекараме остатъка от деня в стил „tardeo“. Какво означава това: отворен бар, кафенца, коктейли и приятна мериенда (следобедна закуска) около 18:00, за да подхраним енергийните нива.'
       },
       {
-        subtitle: 'Църковен обред',
-        time: 'Неделя, 24 юли 2025 • 17:00',
-        title: 'Църква Nikolaevska',
-        details: 'Nikolaevska Porta, Novi Sad',
-        description: 'Официалната церемония с хор и свещи, след което ще се разходим до залата.'
-      },
-      {
-        subtitle: 'Празненство',
-        time: '18:00–01:00',
-        title: 'Зала Lipov Gaj',
-        details: 'BB Nova 1, Novi Sad',
-        badge: 'Прием • Ритуал • Парти',
-        description: 'Вечеря, музика и танци в Lipov Gaj до сутринта.'
+        subtitle: 'До късно през нощта',
+        time: 'Събота, 28 март 2025 • 20:00–късно',
+        title: 'Някъде в Брюксел',
+        details: '',
+        description: 'Макар да сме резервирали Pompette до 1 сутринта, нямаме конкретен план за вечерта и ще видим накъде ще ни отведе нощта! Заповядайте с нас и след това, където и да се окажем.'
       }
     ],
-    infoTitle: 'Практична информация',
+    infoTitle: 'Практическа информация',
     infoCards: [
       {
-        title: 'Пътуване',
+        title: 'Пътуване и настаняване',
         body: [
-          'Летища: Белград Nikola Tesla (BEG) или Тимишоара (TSR).',
-          'До Нови Сад: ~1 ч. с кола от Белград; ~1,5 ч. с шатъл или влак.',
-          'Придвижване: таксита и Bolt; разстоянията са кратки.'
-        ]
-      },
-      {
-        title: 'Настаняване',
-        body: [
-          'Център: хотели Leopold I, Garni Arta, Prezident.',
-          'До реката: Sheraton и Hotel Pupin близо до Petrovaradin.',
-          'Резервирайте рано: юли е натоварен – удобно за ходене пеша.'
+          'За тези, които пътуват отдалеч (или не чак толкова), пишете ни, ако имате нужда от помощ по тези два въпроса.',
+          'Накратко: препоръчваме полет до Завентем и настаняване между Place Fernand Coq, Place Flagey и Place du Châtelain. Или изберете Европейския квартал, ако търсите по-корпоративна атмосфера.'
         ]
       },
       {
         title: 'Дрескод',
         body: [
-          'Елегантно лятно облекло; церемонията е вътре, приемът – с тераса.',
-          'Подходящо за токчета, освен кратък калдъръмен участък.'
+          'Нищо конкретно — празненството е неофициално.',
+          'Бъдете себе си и се чувствайте удобно — това е най-важното за нас.'
         ]
       },
       {
-        title: 'Подаръци',
+        title: 'Музика',
         body: [
-          'Вашето присъствие е най-ценният подарък.',
-          'Бележка на ръка или любимо стихотворение ще ни зарадва.'
+          'Искаме всички да се забавляват и да чуят музика, която обичат.',
+          'Последвайте този линк и добавете любимите си парчета за tardeo-то: LINK'
         ]
       }
     ],
-    tipsTitle: 'Идеи и препоръки',
+    tipsTitle: 'Съвети и идеи',
     tipsCards: [
       {
         title: 'Храна и кафе',
-        body: ['Carigradski Drum за брънч, Petrus за вечеря, Trčika за залез с кафе.']
+        body: [
+          'За нови и стари познавачи на Брюксел — ето списък с места за хапване и напитки, които сме събрали през годините:',
+          'Храна: LINK',
+          'Кафе и сладкиши: LINK'
+        ]
       },
       {
         title: 'Какво да правите',
-        body: ['Разходка по Дунав на залез, крепост Petrovaradin, площад Trg Slobode.']
+        body: [
+          'Ако ви е за първи път в Брюксел — посетете Grand Place.',
+          'Ако не — разходете се из Marolles и битпазара.',
+          'И в двата случая — насладете се на хубава белгийска бира!',
+          'Пишете ни, ако имате нужда от персонализирани съвети — с радост ще помогнем.'
+        ]
       },
       {
         title: 'Контакти',
         body: [
-          'Домакини: Isidora +381 60 000 000 • Danilo +381 60 111 111',
-          'Въпроси: rsvp@ourday.example'
+          'Imanol +32 456 35 61 28 • Viktoria +32 456 32 49 67',
+          'Въпроси: imanolviki@gmail.com'
         ]
       }
     ],
     footer: {
-      monogram: 'I & D',
-      date: '24 юли 2025 г. • Нови Сад, Сърбия'
+      monogram: 'V & I',
+      date: '28 март 2025 • Брюксел, Белгия'
     },
     rsvp: {
       title: 'Потвърждение',
-      intro: 'Моля, потвърдете до 15 юни, за да планираме местата, менюто и транспорта.',
+      intro: 'Ще сме благодарни, ако потвърдите до 15 февруари дали ще присъствате.',
       fields: {
         names: 'Вашето име/имена',
         email: 'Имейл',
         attendance: 'Ще присъствате ли?',
-        guests: 'Колко души идват?',
-        diet: 'Диетични бележки',
-        song: 'Песен по желание (по избор)',
-        message: 'Още нещо?'
+        guests: 'Колко души ще присъстват?',
+        diet: 'Хранителни изисквания',
+        song: 'Заявка за песен (по избор)',
+        message: 'Нещо друго?'
       },
       placeholders: {
-        names: 'Viktoria & Imanol',
-        email: 'vy@example.com',
-        diet: 'Алергии, предпочитания (вегетариан, веган и др.)',
-        song: 'Ще я поискаме от бандата.',
-        message: 'Пътуване, придружители, деца или въпроси.'
+        names: 'Виктория & Иманол',
+        email: 'you@example.com',
+        diet: 'Алергии, вегетариански/веган предпочитания и др.',
+        song: 'Ще направим всичко възможно да я пуснем.',
+        message: 'Детайли за пътуване, имена на придружители, деца или въпроси.'
       },
       attendanceOptions: {
         yes: 'С радост приемам',
-        no: 'За съжаление няма да успея'
+        no: 'Съжалявам, няма да мога'
       },
-      submit: 'Изпрати',
+      submit: 'Изпрати потвърждение',
       status: {
-        sending: 'Изпращаме вашето потвърждение…',
-        success: 'Благодарим! Получихме отговора ви.',
-        error: 'Нещо се обърка. Опитайте пак или ни пишете.'
+        sending: 'Изпращаме потвърждението…',
+        success: 'Благодарим! Получихме вашето потвърждение.',
+        error: 'Възникна грешка. Моля, опитайте отново или ни пишете по имейл.'
       }
     }
   }
