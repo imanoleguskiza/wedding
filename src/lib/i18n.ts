@@ -84,7 +84,7 @@ export const translations: Record<Lang, Translation> = {
   en: {
     meta: {
       title: 'Our Wedding',
-      dateLocation: 'July 24, 2025 • Novi Sad, Serbia'
+      dateLocation: '28th March 2026 • Brussels, Belgium'
     },
     nav: {
       home: 'Home',
@@ -93,28 +93,28 @@ export const translations: Record<Lang, Translation> = {
     },
     hero: {
       names: 'Viktoria & Imanol',
-      subtitle: '28 March 2025 • Brussels, Belgium',
+      subtitle: '28 March 2026 • Brussels, Belgium',
       context: '<p>After almost 10 years of selfies, we have decided to tie the knot.</p><p>As is our style, we are throwing a marriage shindig to celebrate the affair and we would love for you to be there with us.</p><p>Consider yourself formally invited!</p>'
     },
     scheduleTitle: 'Schedule',
     schedule: [
       {
         subtitle: 'The Formal Bit',
-        time: 'Saturday, 28 March, 2025 • 11:30-13:00',
+        time: 'Saturday, 28 March, 2026 • 11:30-13:00',
         title: "Maison Communale d'Ixelles",
         details: 'Place Eugène Flagey 18, 1050 Ixelles, Brussels',
         description: 'We have a marriage appointment at the Commune d’Ixelles and you are welcome to join us for this! While we are unsure how exactly it happens, we expect to declare our undying love and sign some papers. Woop!'
       },
       {
         subtitle: "The Fun Part",
-        time: 'Saturday, 28 March, 2025 • 13:30-20:00',
+        time: 'Saturday, 28 March, 2026 • 13:30-20:00',
         title: "Pompette",
         details: 'Chausee d\'Ixelles 181, 1050 Ixelles, Belgium',
         description: 'Going with a Spanish vibe, we\'ll have some lunch and spend the rest of the day "tardeo" syle. What does this mean: open bar, coffees, cocktail happy hour and a nice merienda around 18:00 to keep us going into the night.'
       },
       {
         subtitle: "Into the night",
-        time: 'Saturday, 28 March, 2025 • 20:00-Late',
+        time: 'Saturday, 28 March, 2026 • 20:00-Late',
         title: "Somewhere in Brussels",
         details: '',
         description: 'While we have booked Pompette until 1AM, there is no specific plan for the evening and we will see where the night takes us! Feel free to join us for afters, wherever that may be.'
@@ -173,7 +173,7 @@ export const translations: Record<Lang, Translation> = {
     ],
     footer: {
       monogram: 'V & I',
-      date: '28 March 2025 • Brussels, Belgium'
+      date: '28 March 2026 • Brussels, Belgium'
     },
     rsvp: {
       title: 'RSVP',
@@ -209,7 +209,7 @@ export const translations: Record<Lang, Translation> = {
   es: { 
     meta: { 
       title: 'Nuestra boda', 
-      dateLocation: '24 de julio de 2025 • Novi Sad, Serbia' 
+      dateLocation: '28 de Marzo de 2026 • Bruselas, Bélgica' 
     }, 
     nav: { 
       home: 'Inicio', 
@@ -218,28 +218,28 @@ export const translations: Record<Lang, Translation> = {
     }, 
     hero: { 
       names: 'Viktoria & Imanol', 
-      subtitle: '28 de marzo de 2025 • Bruselas, Bélgica', 
+      subtitle: '28 de marzo de 2026 • Bruselas, Bélgica', 
       context: '<p>Después de casi 10 años de selfies, hemos decidido dar el gran paso.</p><p>Como es nuestro estilo, organizamos un guateque de boda para celebrarlo y nos encantaría que estuvieras allí con nosotros.</p><p>¡Considérate formalmente invitado!</p>' 
     }, 
     scheduleTitle: 'Programa', 
     schedule: [ 
       { 
         subtitle: 'La parte formal', 
-        time: 'Sábado, 28 de marzo de 2025 • 11:30-13:00', 
+        time: 'Sábado, 28 de marzo de 2026 • 11:30-13:00', 
         title: "Maison Communale d'Ixelles", 
         details: 'Place Eugène Flagey 18, 1050 Ixelles, Bruselas', 
         description: 'Tenemos cita para casarnos en la comuna de Ixelles y ¡estás más que invitado a acompañarnos! Aunque no sabemos exactamente cómo será, esperamos declarar nuestro amor eterno y firmar algunos papeles. ¡Yuju!' 
       }, 
       { 
         subtitle: 'La parte divertida', 
-        time: 'Sábado, 28 de marzo de 2025 • 13:30-20:00', 
+        time: 'Sábado, 28 de marzo de 2026 • 13:30-20:00', 
         title: 'Pompette', 
         details: 'Chausee d\'Ixelles 181, 1050 Ixelles, Bélgica', 
         description: 'El plan es comida y tardeo con barra libre, cafés, happy hour de cócteles y una buena merienda alrededor de las 18:00 para seguir hasta la noche.' 
       }, 
       { 
         subtitle: 'Hasta entrada la noche', 
-        time: 'Sábado, 28 de marzo de 2025 • 20:00-hasta tarde', 
+        time: 'Sábado, 28 de marzo de 2026 • 20:00-hasta tarde', 
         title: 'En algún lugar de Bruselas', 
         details: '', 
         description: 'Aunque tenemos reservado Pompette hasta la 1:00, no hay un plan concreto para la noche y veremos adónde nos lleva. ¡Siéntete libre de unirte a nosotros para el after, donde sea que termine siendo!' 
@@ -298,7 +298,7 @@ export const translations: Record<Lang, Translation> = {
     ], 
     footer: { 
       monogram: 'V & I', 
-      date: '28 de marzo de 2025 • Bruselas, Bélgica' 
+      date: '28 de marzo de 2026 • Bruselas, Bélgica' 
     }, 
     rsvp: { 
       title: 'RSVP', 
@@ -343,28 +343,28 @@ export const translations: Record<Lang, Translation> = {
     },
     hero: {
       names: 'Виктория & Иманол',
-      subtitle: '28 март 2025 • Брюксел, Белгия',
+      subtitle: '28 март 2026 • Брюксел, Белгия',
       context: '<p>След почти 10 години селфита решихме да подпишем. Йей!</p><p>Пък така и така ще се наконтим за подписа, с кеф ще си организираме едно партЕ, та да полеем голямата крачка. А колкото повече прекрасни хора дойдат да поливат с нас, толкоз по-плодородно ще да е. В превод: мноооого ще се радваме да дойдете.</p><p>Считайте се официално поканени!</p>'
     },
     scheduleTitle: 'Програма',
     schedule: [
       {
         subtitle: 'Официалната част',
-        time: 'Събота, 28 март 2025 • 11:30–13:00',
+        time: 'Събота, 28 март 2026 • 11:30–13:00',
         title: "Maison Communale d'Ixelles",
         details: 'Place Eugène Flagey 18, 1050 Ixelles, Брюксел',
         description: 'Имаме час за сключване на брак в общината на Иксел и сте добре дошли да се присъедините! Макар да не сме напълно сигурни как точно протича, очакваме да заявим вечната си любов пред белгийската администрация и да подпишем няколко документа. Ура!'
       },
       {
         subtitle: 'Забавната част',
-        time: 'Събота, 28 март 2025 • 13:30–20:00',
+        time: 'Събота, 28 март 2026 • 13:30–20:00',
         title: 'Pompette',
         details: "Chaussée d'Ixelles 181, 1050 Ixelles, Белгия",
         description: 'По испански тертип, ще обядваме и ще прекараме остатъка от деня в стил „tardeo“. Какво означава това: отворен бар, кафенца, коктейли и приятна мериенда (следобедна закуска) около 18:00, за да подхраним енергийните нива.'
       },
       {
         subtitle: 'До късно през нощта',
-        time: 'Събота, 28 март 2025 • 20:00–късно',
+        time: 'Събота, 28 март 2026 • 20:00–късно',
         title: 'Някъде в Брюксел',
         details: '',
         description: 'Макар да сме резервирали Pompette до 1 сутринта, нямаме конкретен план за вечерта и ще видим накъде ще ни отведе нощта! Заповядайте с нас и след това, където и да се окажем.'
@@ -423,7 +423,7 @@ export const translations: Record<Lang, Translation> = {
     ],
     footer: {
       monogram: 'V & I',
-      date: '28 март 2025 • Брюксел, Белгия'
+      date: '28 март 2026 • Брюксел, Белгия'
     },
     rsvp: {
       title: 'Потвърждение',
