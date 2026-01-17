@@ -44,14 +44,14 @@ export async function handleRsvpRequest(request: Request, env: RSVPEnv) {
   }
 
   const names = body.names?.toString().trim();
-  const email = body.email?.toString().trim();
+  const email = body.email?.toString().trim() ?? '';
   const attendance = body.attendance?.toString().trim();
   const guests = Number(body.guests ?? 1);
   const diet = body.diet?.toString().trim() ?? '';
   const song = body.song?.toString().trim() ?? '';
   const message = body.message?.toString().trim() ?? '';
 
-  if (!names || !email || !attendance) {
+  if (!names || !attendance) {
     return new Response('Missing required fields', { status: 422, headers: corsHeaders });
   }
 
