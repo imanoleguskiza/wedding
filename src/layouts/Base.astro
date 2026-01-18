@@ -10,14 +10,27 @@ interface Props {
 }
 
 const { lang = 'en', page = 'home', t } = Astro.props as Props;
+const shareImage = '/thumbnail.png';
+const absoluteShareImage = Astro.site ? new URL(shareImage, Astro.site).href : shareImage;
+const ogUrl = Astro.site ? new URL(Astro.url.pathname ?? '/', Astro.site).href : undefined;
 ---
 <html lang={lang}>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <slot name="head" />
-    <title>{t?.meta?.title ?? 'Wedding'}</title>
-  </head>
+    <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta name="description" content={t?.meta?.dateLocation ?? 'Wedding'} />
+      <slot name="head" />
+      <title>{t?.meta?.title ?? 'Wedding'}</title>
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content={t?.meta?.title ?? 'Wedding'} />
+      <meta property="og:description" content={t?.meta?.dateLocation ?? ''} />
+      <meta property="og:image" content={absoluteShareImage} />
+      {ogUrl && <meta property="og:url" content={ogUrl} />}
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content={t?.meta?.title ?? 'Wedding'} />
+      <meta name="twitter:description" content={t?.meta?.dateLocation ?? ''} />
+      <meta name="twitter:image" content={absoluteShareImage} />
+    </head>
   <body>
     <header class="container">
       <div class="header-row">
