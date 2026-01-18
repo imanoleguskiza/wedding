@@ -145,12 +145,19 @@ main {
   gap: 1.5rem;
 }
 
-.hero img {
+.hero-figure {
   width: min(100%, 980px);
   margin: 0 auto;
-  display: block;
   border-radius: 8px;
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+.hero-figure img {
+  width: 100%;
+  display: block;
+  height: auto;
+  object-position: center;
 }
 
 .hero h1 {
@@ -378,8 +385,10 @@ button:hover {
     justify-content: center;
   }
 
-  .hero img {
-    border-radius: 6px;
+  .hero-figure img {
+    height: clamp(300px, 55vw, 420px);
+    object-fit: cover;
+    object-position: 50% 35%;
   }
 
   .form-card {

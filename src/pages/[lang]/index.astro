@@ -15,8 +15,15 @@ const t: Translation = (Astro.props as any)?.t ?? translations[lang];
 ---
 <Base lang={lang} page="home" t={t}>
   <section class="hero">
-    <picture>
-      <img src="/hero.png" alt="Couple portrait" loading="lazy" />
+    <picture class="hero-figure">
+      <source media="(max-width: 720px)" srcset="/hero_mobile.png" sizes="90vw" />
+      <img
+        src="/hero.png"
+        alt="Couple portrait"
+        loading="lazy"
+        decoding="async"
+        sizes="(max-width: 720px) 90vw, 980px"
+      />
     </picture>
     <div>
       <div class="rule" aria-hidden="true"></div>
