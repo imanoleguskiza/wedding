@@ -100,7 +100,7 @@ export const translations: Record<Lang, Translation> = {
     schedule: [
       {
         subtitle: 'The Formal Bit',
-        time: 'Saturday, 28 March, 2026 • 11:30-13:00',
+        time: 'Saturday, 28 March, 2026 • 11:15-13:00',
         title: "Maison Communale d'Ixelles",
         details: 'Place Eugène Flagey 18, 1050 Ixelles, Brussels',
         description: 'We have a marriage appointment at the Commune d’Ixelles and you are welcome to join us for this! While we are unsure how exactly it happens, we expect to declare our undying love and sign some papers. Woop!'
@@ -225,7 +225,7 @@ export const translations: Record<Lang, Translation> = {
     schedule: [ 
       { 
         subtitle: 'La parte formal', 
-        time: 'Sábado, 28 de marzo de 2026 • 11:30-13:00', 
+        time: 'Sábado, 28 de marzo de 2026 • 11:15-13:00', 
         title: "Maison Communale d'Ixelles", 
         details: 'Place Eugène Flagey 18, 1050 Ixelles, Bruselas', 
         description: 'Tenemos cita para casarnos en la comuna de Ixelles y ¡estás más que invitado a acompañarnos! Aunque no sabemos exactamente cómo será, esperamos declarar nuestro amor eterno y firmar algunos papeles. ¡Yuju!' 
@@ -350,7 +350,7 @@ export const translations: Record<Lang, Translation> = {
     schedule: [
       {
         subtitle: 'Официалната част',
-        time: 'Събота, 28 март 2026 • 11:30–13:00',
+        time: 'Събота, 28 март 2026 • 11:15–13:00',
         title: "Maison Communale d'Ixelles",
         details: 'Place Eugène Flagey 18, 1050 Ixelles, Брюксел',
         description: 'Имаме час за сключване на брак в общината на Иксел и сте добре дошли да се присъедините! Макар да не сме напълно сигурни как точно протича, очакваме да заявим вечната си любов пред белгийската администрация и да подпишем няколко документа. Ура!'

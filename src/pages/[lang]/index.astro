@@ -12,13 +12,20 @@ export function getStaticPaths() {
 const langParam = (Astro.params.lang as Lang) ?? (Astro.props as any)?.lang ?? 'en';
 const lang: Lang = languages.includes(langParam) ? langParam : 'en';
 const t: Translation = (Astro.props as any)?.t ?? translations[lang];
+
+const heroImages: Record<Lang, { desktop: string; mobile: string }> = {
+  en: { desktop: '/hero.png', mobile: '/hero_mobile.png' },
+  es: { desktop: '/hero_es.png', mobile: '/hero_mobile_es.png' },
+  bg: { desktop: '/hero_bg.png', mobile: '/hero_mobile_bg.png' }
+};
+const heroImage = heroImages[lang];
 ---
 <Base lang={lang} page="home" t={t}>
   <section class="hero">
     <picture class="hero-figure">
-      <source media="(max-width: 720px)" srcset="/hero_mobile.png" sizes="90vw" />
+      <source media="(max-width: 720px)" srcset={heroImage.mobile} sizes="90vw" />
       <img
-        src="/hero.png"
+        src={heroImage.desktop}
         alt="Couple portrait"
         loading="lazy"
         decoding="async"

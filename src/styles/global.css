@@ -385,12 +385,6 @@ button:hover {
     justify-content: center;
   }
 
-  .hero-figure img {
-    height: clamp(300px, 55vw, 420px);
-    object-fit: cover;
-    object-position: 50% 35%;
-  }
-
   .form-card {
     padding: 1.5rem;
   }
