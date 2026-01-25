@@ -150,7 +150,9 @@ export const translations: Record<Lang, Translation> = {
         body: [
           'This will be a relaxed and informal celebration — there won’t be a formal wedding reception: no gifts are necessary.',
           'Your presence is truly the only gift we need.',
-          'If you would still like to give us something symbolic, you can make a contribution towards our trip to Mexico later this year here: Viktoria Dimitrova & Imanol Eguskiza - BE08 6500 5579 3013'
+          'If you would still like to give us something symbolic, you can make a contribution towards our trip to Mexico later this year here:',
+          'Viktoria Dimitrova & Imanol Eguskiza',
+          'BE08 6500 5579 3013'
         ]
       }
     ],
@@ -285,7 +287,9 @@ export const translations: Record<Lang, Translation> = {
         body: [ 
           'Esta será una celebración relajada e informal — no habrá una recepción formal de boda: los regalos no son necesarios.', 
           'Vuestra presencia es realmente el único regalo que necesitamos.',
-          'Si aun así os gustaría darnos un detalle simbólico, podéis hacer una contribución para nuestro viaje a México más adelante este año aquí: Viktoria Dimitrova & Imanol Eguskiza - BE08 6500 5579 3013' 
+          'Si aun así os gustaría darnos un detalle simbólico, podéis hacer una contribución para nuestro viaje a México más adelante este año aquí:',
+          'Viktoria Dimitrova & Imanol Eguskiza',
+          'BE08 6500 5579 3013'
         ] 
       } 
     ], 
@@ -420,7 +424,9 @@ export const translations: Record<Lang, Translation> = {
         body: [
           'Това ще бъде спокойна и неформална празнична церемония — няма да има официален сватбен прием: не са необходими подаръци.',
           'Вашето присъствие е наистина единственият подарък, от който се нуждаем.',
-          'Ако все пак бихте искали да ни подарите нещо символично, можете да направите принос за нашето пътуване до Мексико по-късно тази година: Viktoria Dimitrova & Imanol Eguskiza - BE08 6500 5579 3013'
+          'Ако все пак бихте искали да ни подарите нещо символично, можете да направите принос за нашето пътуване до Мексико по-късно тази година:',
+          'Viktoria Dimitrova & Imanol Eguskiza',
+          'BE08 6500 5579 3013'
         ]
       }
     ],

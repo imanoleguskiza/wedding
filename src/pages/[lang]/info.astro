@@ -16,7 +16,7 @@ const t: Translation = (Astro.props as any)?.t ?? translations[lang];
 <Base lang={lang} page="info" t={t}>
   <section>
     <div class="section-title">{t.infoTitle}</div>
-    <div class="info-grid info-grid--two-columns">
+    <div class="info-grid info-grid--practical">
       {t.infoCards.map((card) => (
         <div class="info-card">
           <h3>{card.title}</h3>
