@@ -126,7 +126,9 @@ export const translations: Record<Lang, Translation> = {
         title: 'Travel & Stay',
         body: [
           'For the ones traveling from afar (or not so afar), let us know if you need any help on these two items.',
-          'In short: we recommend flying to Zaventem and staying between Place Fernand Coq, Place Flagey and Place du Châtelain. Or go to the European Quarter if you crave that corporate vibe.'
+          'In short: we recommend flying to Zaventem and staying between Place Fernand Coq, Place Flagey and Place du Châtelain. Or go to the European Quarter if you crave that corporate vibe.',
+          'Transport from Zaventem airport: public transport is very good, both train and bus. If you are more than two people, taking a taxi or Uber is worth it.',
+          'Transport from Charleroi airport: Flibco is the only direct option to Brussels. You can book either a bus to Midi train station or a door-to-door transfer on their <a href="https://www.flibco.com/en">website</a>. Another good door-to-door option is <a href="https://gvtaxi.com/book-now/">GVTaxi</a>, for both private and shared transfers.'
         ]
       },
       {
@@ -140,7 +142,15 @@ export const translations: Record<Lang, Translation> = {
         title: 'Music',
         body: [
           'We want everyone to have fun and have their music taste represented.',
-          'Follow this link and feel free to add your favorite bangers for the tardeo: <a href="https://open.spotify.com/playlist/21xlH8O9UJQ063xIscskDP?si=WdgWWXt-SnaKQfqAWYLpdg&pi=zaeQ-izRTBe4z">Spotify playlist</a>'
+          'Follow this link and feel free to add your favorite bangers for the tardeo: <a href="https://open.spotify.com/playlist/21xlH8O9UJQ063xIscskDP?si=_tsASfTOTKG0ZYJBMvUfnQ&pt=c370bf31726d736b36b5c6522bcce98d&pi=_Kf6Cg6UQAyoY">Spotify playlist</a>'
+        ]
+      },
+      {
+        title: 'Gifts',
+        body: [
+          'This will be a relaxed and informal celebration — there won’t be a formal wedding reception: no gifts are necessary.',
+          'Your presence is truly the only gift we need.',
+          'If you would still like to give us something symbolic, you can make a contribution towards our trip to Mexico later this year here: Viktoria Dimitrova & Imanol Eguskiza - BE08 6500 5579 3013'
         ]
       }
     ],
@@ -251,7 +261,9 @@ export const translations: Record<Lang, Translation> = {
         title: 'Viaje y alojamiento', 
         body: [ 
           'Para quienes viajen desde lejos (o no tan lejos), avísanos si necesitas ayuda con estos dos puntos.', 
-          'En resumen: recomendamos volar a Zaventem y alojarse entre Place Fernand Coq, Place Flagey y Place du Châtelain. O ir al Barrio Europeo si te apetece ese ambiente corporativo.' 
+          'En resumen: recomendamos volar a Zaventem y alojarse entre Place Fernand Coq, Place Flagey y Place du Châtelain. O ir al Barrio Europeo si te apetece ese ambiente corporativo.',
+          'Transporte desde el aeropuerto de Zaventem: el transporte público es muy bueno, tanto el tren como el autobús. Si sois más de dos personas, merece la pena coger un taxi o un Uber.',
+          'Transporte desde el aeropuerto de Charleroi: Flibco es la única opción directa a Bruselas. Puedes reservar en su <a href="https://www.flibco.com/en">página web</a> un autobús hasta la estación de tren de Midi o un traslado puerta a puerta. Otra buena opción puerta a puerta es <a href="https://gvtaxi.com/book-now/">GVTaxi</a>, tanto para traslados privados como compartidos.' 
         ] 
       }, 
       { 
@@ -261,11 +273,19 @@ export const translations: Record<Lang, Translation> = {
           'Sé tú mismo y siéntete cómodo, eso es lo que más nos importa.' 
         ] 
       }, 
+      {
+        title: 'Música',
+        body: [
+          'Queremos que todo el mundo se divierta y que sus gustos musicales estén representados.',
+          'Sigue este enlace y añade tus temazos favoritos para el tardeo: <a href="https://open.spotify.com/playlist/21xlH8O9UJQ063xIscskDP?si=_tsASfTOTKG0ZYJBMvUfnQ&pt=c370bf31726d736b36b5c6522bcce98d&pi=_Kf6Cg6UQAyoY">Spotify playlist</a>'
+        ]
+      },
       { 
-        title: 'Música', 
+        title: 'Regalos', 
         body: [ 
-          'Queremos que todo el mundo se divierta y que sus gustos musicales estén representados.', 
-          'Sigue este enlace y añade tus temazos favoritos para el tardeo: <a href="https://open.spotify.com/playlist/21xlH8O9UJQ063xIscskDP?si=WdgWWXt-SnaKQfqAWYLpdg&pi=zaeQ-izRTBe4z">Spotify playlist</a>' 
+          'Esta será una celebración relajada e informal — no habrá una recepción formal de boda: los regalos no son necesarios.', 
+          'Vuestra presencia es realmente el único regalo que necesitamos.',
+          'Si aun así os gustaría darnos un detalle simbólico, podéis hacer una contribución para nuestro viaje a México más adelante este año aquí: Viktoria Dimitrova & Imanol Eguskiza - BE08 6500 5579 3013' 
         ] 
       } 
     ], 
@@ -376,7 +396,9 @@ export const translations: Record<Lang, Translation> = {
         title: 'Пътуване и настаняване',
         body: [
           'За тези, които пътуват отдалеч (или не чак толкова), пишете ни, ако имате нужда от помощ по тези два въпроса.',
-          'Накратко: препоръчваме полет до Завентем и настаняване между Place Fernand Coq, Place Flagey и Place du Châtelain. Или изберете Европейския квартал, ако търсите по-корпоративна атмосфера.'
+          'Накратко: препоръчваме полет до Завентем и настаняване между Place Fernand Coq, Place Flagey и Place du Châtelain. Или изберете Европейския квартал, ако търсите по-корпоративна атмосфера.',
+          'Транспорт от летище Завентем: общественият транспорт е много добър, както влакът, така и автобусът. Ако сте повече от двама души, си заслужава да вземете такси или Uber.',
+          'Транспорт от летище Шарлероа: Flibco е единствената директна опция до Брюксел. Можете да резервирате на техния <a href="https://www.flibco.com/en">уебсайт</a> автобус до гара Midi или трансфер от врата до врата. Друга добра опция от врата до врата е <a href="https://gvtaxi.com/book-now/">GVTaxi</a>, както за частни, така и за споделени трансфери.'
         ]
       },
       {
@@ -390,7 +412,15 @@ export const translations: Record<Lang, Translation> = {
         title: 'Музика',
         body: [
           'Искаме всички да се забавляват и да чуят музика, която обичат.',
-          'Последвайте този линк и добавете любимите си парчета за tardeo-то: <a href="https://open.spotify.com/playlist/21xlH8O9UJQ063xIscskDP?si=WdgWWXt-SnaKQfqAWYLpdg&pi=zaeQ-izRTBe4z">Spotify playlist</a>'
+          'Последвайте този линк и добавете любимите си парчета за tardeo-то: <a href="https://open.spotify.com/playlist/21xlH8O9UJQ063xIscskDP?si=_tsASfTOTKG0ZYJBMvUfnQ&pt=c370bf31726d736b36b5c6522bcce98d&pi=_Kf6Cg6UQAyoY">Spotify playlist</a>'
+        ]
+      },
+      {
+        title: 'Подаръци',
+        body: [
+          'Това ще бъде спокойна и неформална празнична церемония — няма да има официален сватбен прием: не са необходими подаръци.',
+          'Вашето присъствие е наистина единственият подарък, от който се нуждаем.',
+          'Ако все пак бихте искали да ни подарите нещо символично, можете да направите принос за нашето пътуване до Мексико по-късно тази година: Viktoria Dimitrova & Imanol Eguskiza - BE08 6500 5579 3013'
         ]
       }
     ],
